@@ -15,7 +15,7 @@ body {
 .book-library {
     background-color: #ffffff;
     padding: 20px;
-    display: flex;
+    display: content;
     justify-content: space-between;
     flex-wrap: wrap;
 }

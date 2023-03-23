@@ -1,1 +1,74 @@
 /*  your css code here. If applicable */
+.head{
+  background-color: #ffffff;
+text-align:center;
+
+    
+   
+}
+
+body {
+    background-color: #f8f8f8;
+	display:inline;
+}
+
+.book-library {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.book img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.book h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.price-block {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.price-block p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.price-block button {
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    color: #2ecc71;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price-block button:hover {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
